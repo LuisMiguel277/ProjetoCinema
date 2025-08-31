@@ -89,3 +89,74 @@ button#int{
     border: none;
 
 }
+
+/*=====================Pesquisa=====================*/
+
+.movies{
+    background-color: red;
+    height: 271vh;
+}
+div#Filmes2025{
+    width: 100%;
+    height: 83%;
+    background-color: orangered;
+}
+div#Filmes2025>h2{
+    text-align: center;
+    padding: 20px;
+
+}
+.filmes{
+    width: 100%;
+    height: 19.2%;
+    background-color: rgb(13, 186, 48);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row nowrap column;
+}
+.filmes>picture>img{
+    width: 200px;
+}
+
+div#Lancamento{
+    width: 100%;
+    height: 17%;
+    background-color: rgb(204, 5, 194);
+}
+.Lanc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-flow: row wrap ;
+    text-align: center;
+
+    height: 100%;
+    background-color: green;
+}
+.Lanc>h2{
+    font-size: 1.6em;
+}
+.Lanc>ul{
+    width: 100%;
+    height: 50%;
+    list-style-type: none;
+}
+.Lanc>ul>li{
+    padding: 5px;
+}
+.lancimg{
+    display: none;
+}
+
+.fam>h3{
+    font-size: 1.4em;
+}
+.alink{
+    font-size: 1.3em;
+    text-decoration: none;
+
+    color: black;
+
+}
