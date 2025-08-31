@@ -90,7 +90,7 @@ button#int{
 
 }
 
-/*=====================Pesquisa=====================*/
+/*=====================Filmes=====================*/
 
 .movies{
     background-color: red;
@@ -159,4 +159,33 @@ div#Lancamento{
 
     color: black;
 
+}
+
+/*=====================Series=====================*/
+
+div#series2025{
+    height: 215vh;
+    background-color: pink;
+}
+.serie{
+    background-color: yellow;
+    
+    width: 100%;
+    height: 100%;
+}
+.serie>h2{
+    text-align: center;
+    padding: 20px;
+}
+.series{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: red;
+    width: 100%;
+    height: 23.8%;
+}
+.series>picture>img{
+    width: 200px;
 }
