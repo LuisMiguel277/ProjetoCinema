@@ -189,3 +189,72 @@ div#series2025{
 .series>picture>img{
     width: 200px;
 }
+
+/*=====================Atuação=====================*/
+
+div#Atuacao{
+    height: 303vh;
+    background-color: pink;
+}
+.att{
+    height: 100%;
+    background-color: rgb(0, 255, 238);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Atores{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: red;
+    width: 70%;
+    height: 25%;
+    margin: 12px;
+    padding: 18px;
+}
+.Atores>picture>img{
+    width: 250px;
+}
+
+/*=====================Plataformas=====================*/
+
+div#Plataformas{
+    display: none;
+}
+
+/*=====================Link=====================*/
+
+footer#link{
+    height: 55vh;
+    background-color: red;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    height: 100%;
+    background-color: green;
+}
+.uteis,.user,.aviso{
+    width: 90%;
+    height: 30%;
+    margin: 15px;
+    padding: 15px;
+    background-color: orange;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.uteis>ul{
+    list-style-type: none;    
+}
