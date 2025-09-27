@@ -1,0 +1,50 @@
+@charset "UTF-8";
+@media screen and (min-width:768px) and (max-width:992px) {
+    /*=====================Cabeçalho=====================*/
+
+    header{
+        background-color: #ffa500;
+        height: 18vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    header>h1{
+        font-size: 2em;
+        width: 100%;
+        text-align: left;
+
+        background-color: red;
+        flex: 2;
+    }
+    span#burger{
+        display: none;
+    }
+    menu{
+        display: block;
+        height: auto;
+    }
+    menu>ul{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;   /* empurra para direita */
+        gap: 15px;
+        padding: 5px 20px 0px 0px;
+    }
+    menu>ul>li>a{
+        text-decoration: none;
+        text-align: center;
+        background-color: brown;
+        border: 2px solid gray;
+
+        width: 100px;
+    }
+    menu>ul>li>a:hover{
+        background-color: darkred;
+    }
+    
+}
