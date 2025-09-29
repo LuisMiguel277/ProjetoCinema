@@ -99,16 +99,17 @@ button#int{
 div#Filmes2025{
     width: 100%;
     height: 83%;
+    padding: 5px;
     background-color: orangered;
 }
-div#Filmes2025>h2{
+.movies>h2{
     text-align: center;
     padding: 20px;
 
 }
 .filmes{
     width: 100%;
-    height: 19.2%;
+    height: 16.7%;
     background-color: rgb(13, 186, 48);
     display: flex;
     justify-content: center;
@@ -116,12 +117,12 @@ div#Filmes2025>h2{
     flex-flow: row nowrap column;
 }
 .filmes>picture>img{
-    width: 200px;
+    width: 188px;
 }
 
 div#Lancamento{
     width: 100%;
-    height: 17%;
+    height: 13%;
     background-color: rgb(204, 5, 194);
 }
 .Lanc{
@@ -129,21 +130,20 @@ div#Lancamento{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    flex-flow: row wrap ;
     text-align: center;
 
-    height: 100%;
+    height: 90%;
     background-color: green;
 }
-.Lanc>h2{
+.PLanc>h2{
     font-size: 1.6em;
 }
-.Lanc>ul{
+.PLanc>ul{
     width: 100%;
     height: 50%;
     list-style-type: none;
 }
-.Lanc>ul>li{
+.PLanc>ul>li{
     padding: 5px;
 }
 .lancimg{
