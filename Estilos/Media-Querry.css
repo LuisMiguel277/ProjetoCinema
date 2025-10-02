@@ -173,4 +173,27 @@
         height: 100%;
         background-color: orangered;
     }
+
+    /*=====================Link=====================*/
+
+    footer#link{
+    height: 80vh;
+    }
+    .area{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        
+    }
+    .uteis,.user{
+        width: 45%;
+        height: 40%;
+    }
+    .aviso{
+        height: 40%;
+        width: 100%;
+    }
+
+
 }
