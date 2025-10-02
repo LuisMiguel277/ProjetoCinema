@@ -173,7 +173,7 @@ div#series2025{
     width: 100%;
     height: 100%;
 }
-.serie>h2{
+div#series2025>h2{
     text-align: center;
     padding: 20px;
 }

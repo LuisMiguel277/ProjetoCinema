@@ -114,5 +114,39 @@
         border-bottom: 3px solid black;
     }
     /*=====================Series=====================*/
+    div#series2025{
+        height: 130vh;
+    }
+    .serie{
+        display: grid;
+        grid-template-columns: auto auto ;
+        grid-template-rows:  auto auto ;
+        height: 92%;
+    }
+    .series{
+        height: 100%;
+    }
+    .series>picture>img{
+    width: 220px;
+    }
+    /*=====================Atuação=====================*/
+    .att{
+        justify-content: space-around;
+    }
+    .Atores{
+        width: 86%;
+        height: 20%;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto auto;
+        gap: 20px;
+    }
+    .Atores>picture>img{
+    width: 240px;
+    }
+    .name{
+        font-size: 2em;
+    }
 
 }
