@@ -129,7 +129,9 @@
     .series>picture>img{
     width: 220px;
     }
+
     /*=====================Atuação=====================*/
+
     .att{
         justify-content: space-around;
     }
@@ -149,4 +151,26 @@
         font-size: 2em;
     }
 
+    /*=====================Plataformas=====================*/
+
+    div#Plataformas{
+        display: block;
+        background-color: #ffa500;
+        height: 50vh;
+    }
+    div#Plataformas>h2{
+        text-align: center;
+        padding: 20px;
+    }
+    .Plata{
+        background-color: pink;
+        height: 78.5%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .plat{
+        width: 100%;
+        height: 100%;
+        background-color: orangered;
+    }
 }
