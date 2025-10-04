@@ -80,14 +80,14 @@
     }
     .Lanc{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
     .fam{
         background-color: red;
-        width: 70%;
-        height: 64.5%;
+        width: 90%;
+        height: 55.5%;
     }
     .fam>h3{
         text-align: center;
@@ -97,14 +97,14 @@
     }
     .PLanc{
         background-color: #ffa500;
-        width: 30%;
-        height: 50%;
+        width: 90%;
+        height: 25%;
     }
     .PLanc>ul{
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: column;
+        flex-direction: row;
         height: 100%;
     }
     .PLanc>ul>li{

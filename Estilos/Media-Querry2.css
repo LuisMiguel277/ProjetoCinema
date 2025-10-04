@@ -1,4 +1,225 @@
 @charset "UTF-8";
 @media screen and (min-width:992px) {
+     /*=====================Cabeçalho=====================*/
+
+    header{
+        background-color: #ffa500;
+        height: 13vh;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 20px;
+    }
+    header>h1{
+        font-size: 2.3em;
+        width: 100%;
+        text-align: left;
+
+        flex: 2;
+    }
+    span#burger{
+        display: none;
+    }
+    menu{
+        display: block;
+        height: auto;
+
+    }
+    menu>ul{
+        margin: 0px;
+        padding: 0px;
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;  
+        flex-flow: row wrap;
+        gap: 15px;
+        padding: 5px 20px 0px 0px;
+    }
+    menu>ul>li>a{
+        text-decoration: none;
+        text-align: center;
+        background-color: brown;
+        border: 2px solid gray;
+
+        width: 125px;
+        height: 55px;
+        padding-top: 17px;
+
+        flex-shrink: 1;
+    }
+    menu>ul>li{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    menu>ul>li>a:hover{
+        background-color: darkred;
+    }
+
+     /*=====================Pesquisa=====================*/
+
+    div#Pesq{
+        background: url("../Poster/Poster2.jpg");
+        background-size: cover;
+
+        height: 95vh;
+    }
+    form{
+        width: 100%;
+     }
+     .search{
+      justify-content: space-evenly;
+     }
+    input#caixa{
+        width: 85vw;
+        height: 50px;
+    }
+    button#int{
+        height: 45px;
+
+    }
+
+    /*=====================Filmes=====================*/
+    div#Filmes2025{
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: auto auto ;
+        height: 50%;
+
+        padding: 0px;
+    }
+    .filmes{
+        height: 100%;
+    }
+    .filmes>picture>img{
+        width: 240px;
+        height: 320px;
+    }
+
+    /*=====================Lançamento=====================*/
+    div#Lancamento{
+        height: 47.2%;
+    }
+    div#Lancamento>h2{
+        text-align: center;
+        padding: 20px;
+    }
+    .Lanc{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        align-content: space-around;
+    }
+    .fam{
+        background-color: red;
+        width: 65%;
+        height: 70.5%;
+    }
+    .fam>h3{
+        text-align: center;
+
+        font-size: 1.6em;
+        padding: 20px;
+    }
+    .PLanc{
+        background-color: #ffa500;
+        width: 20%;
+        height: 50%;
+    }
+    .PLanc>ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+    }
+    .PLanc>ul>li{
+        padding: 12px;
+        margin: 20px;
+
+        border-bottom: 3px solid black;
+    }
+
+    /*=====================Series=====================*/
+    div#series2025{
+        height: 75vh;
+    }
+    .serie {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto;
+        height: 86%;
+    }
+    .series{
+        height: 100%;
+    }
+
+    /*=====================Atuação=====================*/
+    div#Atuacao {
+        height: 90vh;
+    }
+
+    .att {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    }
+
+    .Atores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
+    margin: 12px;
+    padding: 18px;
+    }
+
+     /*=====================Plataformas=====================*/
+
+    div#Plataformas{
+        display: block;
+        background-color: #ffa500;
+        height: 50vh;
+    }
+    div#Plataformas>h2{
+        text-align: center;
+        padding: 20px;
+    }
+    .Plata{
+        background-color: pink;
+        height: 78.5%;
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    .plat{
+        width: 100%;
+        height: 100%;
+        background-color: orangered;
+    }
+
+    /*=====================Link=====================*/
+    footer#link{
+    height: 50vh;
+    }
+    .area {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-content: space-around;
+        flex-wrap: nowrap;
+    }
+    .uteis,.user,.aviso{
+    height: 90%;
+    justify-content: space-evenly;
+
+    }
 
 }
