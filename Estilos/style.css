@@ -6,16 +6,19 @@
 }
 /*=====================Cabeçalho=====================*/
 header{
-    background-color: red;
+    background-color: gold;
+    
 }
 header>h1{
-    flex: 0 0 200px;
+
+    margin: auto;
     padding: 12px;
     text-align: center;
+    width: 300px;
 }
 
 span#burger{
-    background-color: #1f1e1e;
+    background-color: #00090D;
     display: block;
     color: white;
     text-align: center;
@@ -34,18 +37,23 @@ menu>ul>li>a{
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: brown;
-    border: 2px solid gray;
+
+    font-size: 1.2em;
+
+    background-color: gold;
+    border: 2px solid #00090D;
+    color: black;
 }
 menu>ul>li>a:hover{
-    background-color: darkred;
+    border: 2px solid gold;
+    background-color: #00090D;
+    color: gold;
 }
 /*=====================Corpo=====================*/
 
 main{
     width: 100%;
     height: 100%;
-    background-color: blue;
 }
 /*=====================Pesquisa=====================*/
 div#Pesq{
@@ -59,12 +67,13 @@ div#Pesq{
     background-position: center right;
 }
 div#pesq2{
-    width: 95%;
-    height: 25%;
-    background-color: pink;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #0000008d;
+
 }
 .search{
     display: flex;
@@ -72,12 +81,16 @@ div#pesq2{
     align-items: center;
 }
 input#caixa{
-    width: 300px;
-    height: 40px;
-    background-color: red;
+    width: 328px;
+    height: 55px;
+
+    background-color: whitesmoke;
+    border-radius: 16px;
     border: none;
-    padding: 6px;
+    padding: 12px;
     outline: none;
+
+    font-size: 1.2em;
 }
 button#int{
     width: 40px;
@@ -93,37 +106,47 @@ button#int{
 /*=====================Filmes=====================*/
 
 .movies{
-    background-color: red;
-    height: 271vh;
+    background-color: gold;
+    height: 300vh;
 }
 div#Filmes2025{
     width: 100%;
-    height: 83%;
+    height: 82%;
     padding: 5px;
-    background-color: orangered;
+    background-color: #060606;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .movies>h2{
+    font-size: 1.6em;
     text-align: center;
     padding: 20px;
-
 }
 .filmes{
-    width: 100%;
+    width: 88%;
     height: 16.7%;
-    background-color: rgb(13, 186, 48);
+    background-color: #0D0D0D;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row nowrap column;
 }
 .filmes>picture>img{
-    width: 188px;
+    width: 195px;
 }
 
 div#Lancamento{
     width: 100%;
     height: 13%;
-    background-color: rgb(204, 5, 194);
+    background-color: gold;
+}
+div#Lancamento>h2{    
+    font-size: 1.6em;
+    text-align: center;
+    padding: 12px;
 }
 .Lanc{
     display: flex;
@@ -133,7 +156,7 @@ div#Lancamento{
     text-align: center;
 
     height: 90%;
-    background-color: green;
+    background-color: #060606;
 }
 .PLanc>h2{
     font-size: 1.6em;
@@ -144,7 +167,9 @@ div#Lancamento{
     list-style-type: none;
 }
 .PLanc>ul>li{
-    padding: 5px;
+    padding: 7px;
+    border-bottom: 5px solid gold;
+
 }
 .lancimg{
     display: none;
@@ -152,26 +177,34 @@ div#Lancamento{
 
 .fam>h3{
     font-size: 1.4em;
+    color: gold;
+    border-bottom: 4px solid gold;
+    padding: 10px;
 }
 .alink{
     font-size: 1.3em;
     text-decoration: none;
 
-    color: black;
-
+    color: gold;
 }
 
 /*=====================Series=====================*/
 
 div#series2025{
-    height: 215vh;
-    background-color: pink;
+    height: 235vh;
+    background-color: gold;
 }
 .serie{
-    background-color: yellow;
+    background-color: #060606;
     
     width: 100%;
-    height: 100%;
+    height: 95.5%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 div#series2025>h2{
     text-align: center;
@@ -182,12 +215,12 @@ div#series2025>h2{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: red;
-    width: 100%;
+    background-color: #0D0D0D;
+    width: 88%;
     height: 23.8%;
 }
 .series>picture>img{
-    width: 200px;
+    width: 210px;
 }
 
 /*=====================Atuação=====================*/
@@ -198,7 +231,7 @@ div#Atuacao{
 }
 .att{
     height: 100%;
-    background-color: rgb(0, 255, 238);
+    background-color: gold;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -211,7 +244,8 @@ div#Atuacao{
     align-items: center;
     flex-direction: column;
 
-    background-color: red;
+    background-color: #0D0D0D;
+    border: 7px solid #060606;
     width: 70%;
     height: 25%;
     margin: 12px;
@@ -219,6 +253,11 @@ div#Atuacao{
 }
 .Atores>picture>img{
     width: 250px;
+}
+.name{
+    color: yellow;
+    font-size: 1.5em;
+    padding: 10px;
 }
 
 /*=====================Plataformas=====================*/
@@ -241,14 +280,17 @@ footer#link{
     flex-direction: column;
 
     height: 100%;
-    background-color: green;
+    background-color: #060606;
 }
 .uteis,.user,.aviso{
     width: 90%;
     height: 30%;
     margin: 15px;
     padding: 15px;
-    background-color: orange;
+
+    font-size: 1.2em;
+    background-color: #0D0D0D;
+    color: white;
 
     display: flex;
     justify-content: center;
@@ -257,4 +299,12 @@ footer#link{
 }
 .uteis>ul{
     list-style-type: none;    
+}
+a#links{
+    color: gold;
+    text-decoration: none;
+    text-align: center;
+}
+a#links:hover{
+    text-decoration: underline;
 }

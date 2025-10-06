@@ -3,7 +3,6 @@
     /*=====================Cabeçalho=====================*/
 
     header{
-        background-color: #ffa500;
         height: 18vh;
         width: 100%;
         display: flex;
@@ -39,18 +38,18 @@
     menu>ul>li>a{
         text-decoration: none;
         text-align: center;
-        background-color: brown;
-        border: 2px solid gray;
 
         width: 100px;
+        background-color: #060606;
+        color: yellow;
+
     }
     menu>ul>li>a:hover{
-        background-color: darkred;
     }
     /*=====================Pesquisa=====================*/
     input#caixa{
-        width: 550px;
-        height: 50px;
+        width: 650px;
+        height: 60px;
     }
     button#int{
         height: 45px;
@@ -60,15 +59,23 @@
         display: grid;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto ;
+        width: 100%;
         height: 50%;
+        padding: 0px;
+
+
+        justify-content: space-evenly;
+        
 
         padding: 0px;
     }
     .filmes{
-        height: 100%;
+        display: flex;
+        height: 82%;
+        width: 100%;
     }
     .filmes>picture>img{
-    width: 220px;
+    width: 200px;
     }
     /*=====================Lançamento=====================*/
     div#Lancamento{
