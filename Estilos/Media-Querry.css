@@ -40,11 +40,9 @@
         text-align: center;
 
         width: 100px;
-        background-color: #060606;
+        background-color: #0D0D0D;
         color: yellow;
 
-    }
-    menu>ul>li>a:hover{
     }
     /*=====================Pesquisa=====================*/
     input#caixa{
@@ -55,12 +53,26 @@
         height: 45px;
     }
     /*=====================Filmes=====================*/
+    .movies{
+        height: 260vh;
+    }
+
     div#Filmes2025{
+        height: 128vh;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .filmesgrid{
         display: grid;
+        justify-content: space-around;
+        align-items: center;
         grid-template-columns: auto auto auto;
         grid-template-rows: auto auto ;
         width: 100%;
-        height: 50%;
+        height: 100%;
         padding: 0px;
 
 
@@ -71,30 +83,39 @@
     }
     .filmes{
         display: flex;
-        height: 82%;
-        width: 100%;
+        height: 90%;
+        width: 27vw;
+        transition: 0.5s;
+    }
+    .filmes:hover{
+        box-shadow: 0px 1px 17px gold;
+    }
+    .filmes>picture{
+        width: 220px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .filmes>picture>img{
-    width: 200px;
+        width: 220px;
     }
+    
     /*=====================Lançamento=====================*/
     div#Lancamento{
         height: 47.2%;
-    }
-    div#Lancamento>h2{
-        text-align: center;
-        padding: 20px;
     }
     .Lanc{
         display: flex;
         justify-content: space-around;
         align-items: center;
         flex-wrap: nowrap;
+        height: 110vh;
     }
     .fam{
-        background-color: red;
+        background-color: #0D0D0D;
         width: 90%;
-        height: 55.5%;
+        height: 63.5%;
     }
     .fam>h3{
         text-align: center;
@@ -103,9 +124,9 @@
         padding: 20px;
     }
     .PLanc{
-        background-color: #ffa500;
+        background-color: #0D0D0D;
         width: 90%;
-        height: 25%;
+        height: 18%;
     }
     .PLanc>ul{
         display: flex;
@@ -117,9 +138,18 @@
     .PLanc>ul>li{
         padding: 12px;
         margin: 20px;
+        border-bottom: 4px solid yellow;
 
-        border-bottom: 3px solid black;
     }
+    .Planc>ul>li:hover{
+        background-color: gold;
+        color: black;
+    }
+    .alink{
+        width: 100%;
+        color: yellow;
+        font-size: 1.4em;
+   }
     /*=====================Series=====================*/
     div#series2025{
         height: 130vh;
@@ -129,12 +159,21 @@
         grid-template-columns: auto auto ;
         grid-template-rows:  auto auto ;
         height: 92%;
+        
+        align-content: space-evenly;
+        justify-content: space-evenly;
     }
     .series{
-        height: 100%;
+        height: 55vh;
+        width: 28vw;
+        transition: 0.5s;
+    }
+    .series:hover{
+        box-shadow: 0px 1px 17px gold;
+
     }
     .series>picture>img{
-    width: 220px;
+    width: 200px;
     }
 
     /*=====================Atuação=====================*/
@@ -152,7 +191,7 @@
         gap: 20px;
     }
     .Atores>picture>img{
-    width: 240px;
+    width: 232px;
     }
     .name{
         font-size: 2em;
@@ -162,10 +201,12 @@
 
     div#Plataformas{
         display: block;
-        background-color: #ffa500;
+        background-color: #060606;
         height: 50vh;
     }
     div#Plataformas>h2{
+        color: yellow;
+
         text-align: center;
         padding: 20px;
     }
@@ -178,7 +219,7 @@
     .plat{
         width: 100%;
         height: 100%;
-        background-color: orangered;
+    background-color: #0D0D0D;
     }
 
     /*=====================Link=====================*/
@@ -201,6 +242,5 @@
         height: 40%;
         width: 100%;
     }
-
 
 }
