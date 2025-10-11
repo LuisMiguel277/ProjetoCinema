@@ -62,7 +62,7 @@
         background: url("../Poster/Poster2.jpg");
         background-size: cover;
 
-        height: 95vh;
+        height: 87vh;
     }
     form{
         width: 100%;
@@ -71,8 +71,8 @@
       justify-content: space-evenly;
      }
     input#caixa{
-        width: 85vw;
-        height: 50px;
+        width: 65vw;
+        height: 60px;
     }
     button#int{
         height: 45px;
@@ -80,6 +80,10 @@
     }
 
     /*=====================Filmes=====================*/
+    .movies{
+        height: 255vh;
+    }
+
     div#Filmes2025{
         height: 128vh;
 
@@ -97,27 +101,32 @@
         height: 100%;
 
 
+
         justify-content: space-evenly;
         
 
         padding: 0px;
     }
     .filmes{
-        height: 85%;
-        width: 20vw;
+        height: 80%;
+        width: 18vw;
         transition: 0.5s;
     }
     .filmes>picture>img{
-        width: 240px;
+        width: 230px;
         height: 320px;
+        transition: 0.3s;
     }
     .filmes:hover{
         box-shadow: 0px 1px 17px gold;
     }
+    .filmes>picture>img:hover{
+        padding: 3px;
+    }
 
     /*=====================Lançamento=====================*/
     div#Lancamento{
-        height: 47.2%;
+        height: 46%;
     }
     div#Lancamento>h2{
         text-align: center;
@@ -129,11 +138,13 @@
         align-items: center;
         flex-wrap: wrap;
         align-content: space-around;
+
+        height: 110vh;
     }
     .fam{
         background-color: red;
         width: 65%;
-        height: 70.5%;
+        height: 75%;
     }
     .fam>h3{
         text-align: center;
@@ -144,7 +155,7 @@
     .PLanc{
         background-color: #ffa500;
         width: 20%;
-        height: 50%;
+        height: 60%;
     }
     .PLanc>ul{
         display: flex;
@@ -171,7 +182,13 @@
         height: 86%;
     }
     .series{
-        height: 100%;
+        width: 17vw;
+        height: 80%;
+
+        transition: 0.5s;
+    }
+    .series:hover{
+        box-shadow: 0px 1px 17px gold;
     }
 
     /*=====================Atuação=====================*/
@@ -197,6 +214,9 @@
     height: 80%;
     margin: 12px;
     padding: 18px;
+    }
+    .name{
+        font-size: 1.6em;
     }
 
      /*=====================Plataformas=====================*/
@@ -236,7 +256,16 @@
     .uteis,.user,.aviso{
     height: 90%;
     justify-content: space-evenly;
-
+    }
+    .aviso{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .text{
+        font-size: 1.8em;
+    }
+    .links{
+        font-size: 1.3em;
     }
 
 }
