@@ -141,17 +141,23 @@
     }
     .lancimg{
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
-        height: 88%;
+
+        height: 80%;
+        width: 56vw;
     }
     .lancimg>img{
-        width: 800px;
+        width: 100%;
+        height: 100%;
     }
     .fam{
         width: 65%;
         height: 75%;
         background-color: #0D0D0D;
+
+        display: flex;
+        justify-content: space-around;
         flex-direction: column;
 
     }
@@ -205,6 +211,13 @@
     .series:hover{
         box-shadow: 0px 1px 17px gold;
     }
+    .series>picture{
+        width: 15vw;
+    }
+    .series>picture>img{
+        width: 100%;
+        height: 100%;
+    }
 
     /*=====================Atuação=====================*/
     div#Atuacao {
@@ -231,7 +244,7 @@
     padding: 18px;
     }
     .Atores>picture{
-        width: 250px;
+        width: 16vw;
     }
     .Atores>picture>img{
         width: 100%;

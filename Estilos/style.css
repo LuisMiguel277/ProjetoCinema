@@ -164,13 +164,13 @@ div#Lancamento{
     flex-direction: column;
     text-align: center;
 
-    height: 74%;
+    height: 72%;
     background-color: #060606;
 }
 
 .PLanc>ul{
-    width: 350px;
-    height: 170px;
+    width: 80vw;
+    padding: 10px;
     list-style-type: none;
 
         background-color: #0D0D0D;
@@ -186,15 +186,15 @@ div#Lancamento{
 }
 
 .fam{
-    width: 390px;
-    height: 100px;
+    width: 90vw;
+    height: 12vh;
     background-color: #0D0D0D;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .fam>h3{
-    font-size: 1.6em;
+    font-size: 1.5em;
     font-family: 'TikTok Sans';
     font-weight: normal;
     color: gold;
@@ -203,7 +203,7 @@ div#Lancamento{
 }
 .alink{
     font-family: "Intel One Mono", monospace;
-    font-size: 1.3em;
+    font-size: 1.2em;
     text-decoration: none;
 
     color: yellow;
@@ -268,8 +268,11 @@ div#Atuacao{
     margin: 12px;
     padding: 18px;
 }
+.Atores>picture{
+    width: 240px;
+}
 .Atores>picture>img{
-    width: 250px;
+    width:100%;
 }
 .name{
     color: yellow;
